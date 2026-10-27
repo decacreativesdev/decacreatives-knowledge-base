@@ -12,6 +12,18 @@ This file is **never loaded at session start**. It exists so `STATE.md` can stay
 
 The operation is one of `ingest`, `ask`, `brief`, `lint`, `decision`, `session`. The body is one to four bullets: what came in or was done, which pages changed (as real links), what was flagged, what is still open. The last five entries are `grep "^## \[" brain/wiki/LOG.md | head -5`.
 
+## [2026-10-28] session | indusolutions-quote
+
+- Ran 2026-10-28 with Claude Code. Intent: draft the Indusolutions quote (CSV) at USD 20/h and record the pricing decision.
+- Touched: repos/indusolutions/ `docs/quote.md`, `docs/quote.csv`, map, log, `STATE.md` (not committed here); the [pricing note](../sources/2026/10/2026-10-28-note-indusolutions-quote-pricing.md), [Indusolutions quote pricing](decisions/2026-10-28-indusolutions-quote-pricing.md), [Decisions](decisions/README.md), [Indusolutions website](projects/indusolutions-website.md), [Indusolutions repo](systems/indusolutions.md) (initial commit `54d48dc` recorded), [Tasks](tasks.md), this log, `STATE.md`.
+- Where it ended: quote drafted; lint result in `STATE.md`. Next: operator reviews the hours, then sends the quote with the open questions (a to n).
+
+## [2026-10-28] decision | Indusolutions quote pricing
+
+- Accepted [Indusolutions quote pricing](decisions/2026-10-28-indusolutions-quote-pricing.md): quote now on written assumptions; USD 20/h; base USD 1,826 fixed (91.3 hours incl. 10% contingency), English only; add-ons separate; WP Care USD 40/site/month. Draft under operator review, not sent. [pricing note](../sources/2026/10/2026-10-28-note-indusolutions-quote-pricing.md)
+- Changed: [Decisions](decisions/README.md), [Indusolutions website](projects/indusolutions-website.md), [Tasks](tasks.md) (quote row: source, status and notes). Line items are in the repo's `docs/quote.md` and `docs/quote.csv`.
+- Flagged: launch by about 2026-12-04 needs the Figma by about 2026-11-09, and the Figma has no date; the quote form is priced as one step with no conditional fields.
+
 ## [2026-10-28] session | aip-handoff
 
 - Updated the AIP line in `STATE.md` -> "Focus" to the drafted quote (see [AIP quote pricing](decisions/2026-10-28-aip-quote-pricing.md)). AIP repo committed as `7db889e`. Operator pausing until Camille's feedback.

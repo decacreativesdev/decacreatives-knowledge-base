@@ -22,7 +22,7 @@ This file loads into every session, so it stays roughly constant-size however la
 
 ## Focus
 
-- Send the Indusolutions quote and timeline - overdue since 2026-10-26; send the open questions (a to n) with it, see [Tasks](brain/wiki/tasks.md)
+- Review the Indusolutions quote draft (USD 1,826 fixed base), then send it with the open questions (a to n) - overdue since 2026-10-26, see [Tasks](brain/wiki/tasks.md)
 - Review the Micheline quote draft (USD 1,518 fixed base), then send it with the open questions (a to m) - see [Tasks](brain/wiki/tasks.md)
 - Review Camille's updated clarifications doc, then quote Khoury Construction, Auto Industrial Paints - see [Tasks](brain/wiki/tasks.md)
 - Check the AIP quote draft (core USD 1,120-1,660, WP Care USD 40/month), then send it to Camille with the open questions (a to l) - see [Tasks](brain/wiki/tasks.md)
@@ -36,9 +36,9 @@ This file loads into every session, so it stays roughly constant-size however la
 
 | Session | Intent | Log entry |
 |---|---|---|
-| 2026-10-28-micheline-quote | Micheline quote draft recorded, under operator review | [log 2026-10-28](brain/wiki/LOG.md) |
 | 2026-10-28-indusolutions-repo-setup | Indusolutions repo set up; brief and clarifications ingested | [log 2026-10-28](brain/wiki/LOG.md) |
 | 2026-10-28-aip-handoff | AIP focus updated after the quote draft | [log 2026-10-28](brain/wiki/LOG.md) |
+| 2026-10-28-indusolutions-quote | Indusolutions quote draft recorded, under operator review | [log 2026-10-28](brain/wiki/LOG.md) |
 
 ## Active Decisions
 
