@@ -12,6 +12,12 @@ This file is **never loaded at session start**. It exists so `STATE.md` can stay
 
 The operation is one of `ingest`, `ask`, `brief`, `lint`, `decision`, `session`. The body is one to four bullets: what came in or was done, which pages changed (as real links), what was flagged, what is still open. The last five entries are `grep "^## \[" brain/wiki/LOG.md | head -5`.
 
+## [2026-10-28] decision | AIP quote v2 at USD 1,815
+
+- Accepted [AIP quote v2](decisions/2026-10-28-aip-quote-v2.md): USD 1,815 fixed base build in the Indusolutions, Khoury and Micheline layout, checked against the [brief](../sources/2026/10/2026-10-24-aip-quote-brief.md). [v2 note](../sources/2026/10/2026-10-28-note-aip-quote-v2.md)
+- [AIP quote pricing](decisions/2026-10-28-aip-quote-pricing.md) marked superseded in part (core range replaced; rate and WP Care stand). Changed: [Decisions](decisions/README.md), [AIP website](projects/auto-industrial-paints-website.md), [Tasks](tasks.md), `STATE.md` Focus.
+- Session aip-quote-v2; lint 0 errors.
+
 ## [2026-10-28] session | indusolutions-quote
 
 - Ran 2026-10-28 with Claude Code. Intent: draft the Indusolutions quote (CSV) at USD 20/h and record the pricing decision.
