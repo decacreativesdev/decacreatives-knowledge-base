@@ -29,6 +29,6 @@ sources:
 - **WP Care USD 40:** set by the operator to match AIP, so Camille sees one price across her clients.
 - **Not from the Khoury brief:** WP Care, Search Console and conversion tracking, and the basic SEO add-on come from the clarifications doc; the brief calls SEO "a separate service" after launch. Kept for now pending review.
 
-**Line items and assumptions:** the repo's [quote](../../../repos/khoury-construction/docs/quote.md) and `quote.csv` beside it.
+**Line items and assumptions:** the repo's [quote](../../../repos/khoury-construction/docs/quote.md) and `quote.csv` beside it; `quote-v2.csv` is the same in Epic, Story, Hours with no totals.
 
 Back to [Decisions](README.md).
