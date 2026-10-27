@@ -12,6 +12,60 @@ This file is **never loaded at session start**. It exists so `STATE.md` can stay
 
 The operation is one of `ingest`, `ask`, `brief`, `lint`, `decision`, `session`. The body is one to four bullets: what came in or was done, which pages changed (as real links), what was flagged, what is still open. The last five entries are `grep "^## \[" brain/wiki/LOG.md | head -5`.
 
+## [2026-10-28] session | micheline-repo-setup
+
+- Ran 2026-10-28 02:06 to 02:12 with Claude Code. Intent: install ai-driven-template into repos/micheline-paquette and assess Micheline sources.
+- Touched: repos/micheline-paquette/ (not committed here), the three Micheline sources, the Micheline project, system and person pages, [Decisions](decisions/README.md), [Tasks](tasks.md), this log, `STATE.md`. The log changed under this session (khoury-quote-csv-rename); merged above it.
+- Where it ended: repo setup done (not committed); brain ingest done; lint 0 errors.
+- Next: send Camille the Micheline open questions (a to m); draft the Micheline quote on assumptions; answer whether end of Dec is possible; commit the repo.
+
+## [2026-10-28] ingest | Micheline Paquette brief, clarifications and repo setup
+
+- Captured the [Micheline quote brief](../sources/2026/10/2026-10-28-micheline-quote-brief.md) (decoded from a Pages file; cell pairing exact), the Micheline [clarifications excerpt](../sources/2026/10/2026-10-28-micheline-clarifications-answers.md) and the [operator note](../sources/2026/10/2026-10-28-note-micheline-repo-setup.md); repo `repos/micheline-paquette/` set up from `ai-driven-template` v4.1 to match the AIP and Khoury repos (not committed).
+- Changed: [Micheline website](projects/micheline-paquette-website.md) (scope, superseded brief flagged), [Micheline repo](systems/micheline-paquette.md) (corrected "still empty"), [Micheline Paquette](people/micheline-paquette.md), new [quote open questions](decisions/2026-10-28-micheline-quote-open-questions.md) (open) in [Decisions](decisions/README.md), [Tasks](tasks.md) (quote row updated, one row added, doc-review row noted).
+- Flagged: brief scope superseded by the simplified portfolio; hosting SiteGround (brief, `STATE.md` standard stack) vs Hostinger (general answer); review rounds 3 vs 2; Figma "ideally end of Dec" equals the preferred finish; the brief names "Jad" for support (no page; email support now out); `docs-local/html-design-files/` are the AIP mockups, not Micheline's.
+
+## [2026-10-28] session | khoury-quote-csv-rename
+
+- Khoury quote CSV renamed to `quote.csv` in the repo to match AIP; [Khoury quote pricing](decisions/2026-10-28-khoury-quote-pricing.md) updated to the new name. Overlap reported: the live micheline-repo-setup session also scopes this log and `STATE.md`. Lint 0 errors.
+
+## [2026-10-28] session | khoury-quote
+
+- Ran 2026-10-28 02:03 to 02:04 with Claude Code. Intent: record the Khoury quote draft in the brain.
+- Touched: the [pricing note](../sources/2026/10/2026-10-28-note-khoury-quote-pricing.md), [Khoury quote pricing](decisions/2026-10-28-khoury-quote-pricing.md), [Decisions](decisions/README.md), [Khoury website](projects/khoury-construction-website.md), [Tasks](tasks.md), this log, `STATE.md`.
+- Where it ended: Khoury quote draft recorded; lint 0 errors.
+- Next: operator reviews the Khoury quote; then align its layout with AIP if wanted, and send it with the open questions.
+
+## [2026-10-28] decision | Khoury quote pricing
+
+- Accepted [Khoury quote pricing](decisions/2026-10-28-khoury-quote-pricing.md): quote now on written assumptions; USD 20/h; base USD 2,530 fixed (126.5 hours incl. 10% contingency); add-ons separate; WP Care USD 40/site/month to match AIP. Draft under operator review, not sent. [pricing note](../sources/2026/10/2026-10-28-note-khoury-quote-pricing.md)
+- Changed: [Decisions](decisions/README.md), [Khoury website](projects/khoury-construction-website.md), [Tasks](tasks.md) (quote row: source, status and notes). Line items are in the repo's `docs/quote.md`.
+- Flagged: WP Care, Search Console and conversion tracking, and the basic SEO add-on are not in the Khoury brief; kept pending review. Layout differs from the AIP quote (fixed price vs range).
+
+## [2026-10-28] decision | AIP quote pricing
+
+- Accepted [AIP quote pricing](decisions/2026-10-28-aip-quote-pricing.md): quote now with assumptions; USD 20/h; core USD 1,120-1,660; WP Care USD 40/site/month incl. 2 h. [pricing note](../sources/2026/10/2026-10-28-note-aip-quote-pricing.md)
+- Changed: [Decisions](decisions/README.md), [AIP website](projects/auto-industrial-paints-website.md), [Tasks](tasks.md). Line-by-line reasoning is in the repo's `docs/quote.md`.
+- Session aip-quote-pricing; lint 0 errors.
+
+## [2026-10-28] session | aip-quote-rate
+
+- Drafted the AIP quote in the repo ([quote](../../repos/auto-industrial-paints/docs/quote.md), `quote.csv`) with assumptions in place of the open questions. Rate USD 20/h from the operator ([rate note](../sources/2026/10/2026-10-28-note-hourly-rate.md)), recorded on [Joshua Clifford Reyes](people/joshua-clifford-reyes.md). Core USD 1,120-1,660 from Claude Code's 56-83 hour estimate. [Tasks](tasks.md) row updated. WP Care fee still open.
+
+## [2026-10-28] session | khoury-repo-setup
+
+- Ran 2026-10-28 01:27 to 01:32 with Claude Code. Intent: install ai-driven-template into repos/khoury-construction and assess Khoury sources.
+- Touched: repos/khoury-construction/ (not committed here), the two Khoury sources, the Khoury project and system pages, [Decisions](decisions/README.md), [Tasks](tasks.md), this log, `STATE.md`.
+- Where it ended: repo setup done (not committed); brain ingest done; lint 0 errors.
+- Next: send Camille the Khoury open questions; quote Khoury with WPML, video and timeline as options, plus WP Care; commit the repo.
+
+## [2026-10-28] ingest | Khoury Construction brief and repo setup
+
+- Captured the [Khoury quote brief](../sources/2026/10/2026-10-28-khoury-quote-brief.md) (decoded from a Pages file; some rows paired by inference) and the [operator note](../sources/2026/10/2026-10-28-note-khoury-repo-setup.md); repo `repos/khoury-construction/` set up from `ai-driven-template` v4.1 to match the AIP repo.
+- Changed: [Khoury website](projects/khoury-construction-website.md), [Khoury repo](systems/khoury-construction.md) (corrected "still empty"), new [quote open questions](decisions/2026-10-28-khoury-quote-open-questions.md) (open) in [Decisions](decisions/README.md), [Tasks](tasks.md) (quote row updated, one row added, doc-review row noted).
+- Flagged: hosting SiteGround (brief, and `STATE.md` standard stack) vs Hostinger (clarifications doc, general answer); review rounds 3 vs 2; brief's "early December" superseded by Jan or Feb 2027; the brief names the client "E. Khoury Construction" and says the domain is "Owned by E. Khoury" - whether [E. Khoury](people/e-khoury.md) is a person or the company is unconfirmed; `docs-local/html-design-files/` are the AIP mockups, not Khoury's.
+- Open: the seven Khoury questions in the clarifications doc have no answers in the local copy.
+
 ## [2026-10-28] session | repo-remotes
 
 - Ran 2026-10-28 00:52 to 00:58 with Claude Code. Intent: record GitHub remotes for the four client repos.
