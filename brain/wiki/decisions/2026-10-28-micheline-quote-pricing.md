@@ -29,6 +29,6 @@ sources:
 - **Timeline:** about three weeks from the Figma handover. End of December needs the Figma by about 2026-12-04; mid January by about 2026-12-18. Camille's Figma date is "ideally end of Dec".
 - **Hours:** Claude Code's estimate from the brief and clarifications only - there is no design. To be checked by the operator.
 
-**Line items and assumptions:** the repo's [quote](../../../repos/micheline-paquette/docs/quote.md) and `quote.csv` beside it.
+**Line items and assumptions:** the repo's [quote](../../../repos/micheline-paquette/docs/quote.md) and `quote.csv` beside it; `quote-v2.csv` is the same quote as Epic, Story, Hours with no totals (added 2026-10-28, same price).
 
 Back to [Decisions](README.md).
