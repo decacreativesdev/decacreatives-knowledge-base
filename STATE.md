@@ -23,7 +23,8 @@ This file loads into every session, so it stays roughly constant-size however la
 ## Focus
 
 - Send the Indusolutions quote and timeline - overdue since 2026-10-26, see [Tasks](brain/wiki/tasks.md)
-- Review Camille's updated clarifications doc (Micheline part done: open questions a to m to send), then quote Micheline Paquette, Khoury Construction, Auto Industrial Paints - see [Tasks](brain/wiki/tasks.md)
+- Review the Micheline quote draft (USD 1,518 fixed base), then send it with the open questions (a to m) - see [Tasks](brain/wiki/tasks.md)
+- Review Camille's updated clarifications doc, then quote Khoury Construction, Auto Industrial Paints - see [Tasks](brain/wiki/tasks.md)
 - Send Camille the AIP open questions, then quote AIP with WP Care - see [Tasks](brain/wiki/tasks.md)
 - Review the Khoury quote draft (USD 2,530 fixed base), then send it to Camille with the open questions (a to o) - see [Tasks](brain/wiki/tasks.md)
 
@@ -35,9 +36,9 @@ This file loads into every session, so it stays roughly constant-size however la
 
 | Session | Intent | Log entry |
 |---|---|---|
-| 2026-10-28-khoury-quote-csv-rename | Khoury quote CSV renamed to quote.csv | [log 2026-10-28](brain/wiki/LOG.md) |
 | 2026-10-28-micheline-repo-setup | Micheline repo set up; brief and clarifications ingested | [log 2026-10-28](brain/wiki/LOG.md) |
 | 2026-10-28-micheline-repo-commit | Micheline repo initial commit recorded | [log 2026-10-28](brain/wiki/LOG.md) |
+| 2026-10-28-micheline-quote | Micheline quote draft recorded, under operator review | [log 2026-10-28](brain/wiki/LOG.md) |
 
 ## Active Decisions
 
