@@ -12,6 +12,11 @@ This file is **never loaded at session start**. It exists so `STATE.md` can stay
 
 The operation is one of `ingest`, `ask`, `brief`, `lint`, `decision`, `session`. The body is one to four bullets: what came in or was done, which pages changed (as real links), what was flagged, what is still open. The last five entries are `grep "^## \[" brain/wiki/LOG.md | head -5`.
 
+## [2026-10-28] session | indusolutions-quote-v2
+
+- Ran 2026-10-28 with Claude Code. At the operator's request, added `docs/quote-v2.csv` to repos/indusolutions/: the quote as Epic, Story, Hours, 21 plain stories, no totals. `quote.csv` kept unchanged; same hours and price, USD 1,826 (contingency in the price, not the list). Matches the AIP quote-v3 layout.
+- Touched: repos/indusolutions/ `docs/quote-v2.csv`, `docs/quote.md`, map, log, `STATE.md` (not committed here); [Indusolutions quote pricing](decisions/2026-10-28-indusolutions-quote-pricing.md) (link to v2), this log, `STATE.md`. No facts changed, so no new source or task.
+
 ## [2026-10-28] decision | AIP quote v2 at USD 1,815
 
 - Accepted [AIP quote v2](decisions/2026-10-28-aip-quote-v2.md): USD 1,815 fixed base build in the Indusolutions, Khoury and Micheline layout, checked against the [brief](../sources/2026/10/2026-10-24-aip-quote-brief.md). [v2 note](../sources/2026/10/2026-10-28-note-aip-quote-v2.md)
