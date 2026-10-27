@@ -35,9 +35,9 @@ This file loads into every session, so it stays roughly constant-size however la
 
 | Session | Intent | Log entry |
 |---|---|---|
-| 2026-10-28-khoury-quote | Khoury quote draft recorded, under operator review | [log 2026-10-28](brain/wiki/LOG.md) |
 | 2026-10-28-khoury-quote-csv-rename | Khoury quote CSV renamed to quote.csv | [log 2026-10-28](brain/wiki/LOG.md) |
 | 2026-10-28-micheline-repo-setup | Micheline repo set up; brief and clarifications ingested | [log 2026-10-28](brain/wiki/LOG.md) |
+| 2026-10-28-micheline-repo-commit | Micheline repo initial commit recorded | [log 2026-10-28](brain/wiki/LOG.md) |
 
 ## Active Decisions
 

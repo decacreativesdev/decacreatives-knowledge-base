@@ -9,11 +9,12 @@ sources:
   - ../../sources/2026/10/2026-10-28-setup-answers.md
   - ../../sources/2026/10/2026-10-28-note-repo-remotes.md
   - ../../sources/2026/10/2026-10-28-note-micheline-repo-setup.md
+  - ../../sources/2026/10/2026-10-28-note-micheline-repo-commit.md
 ---
 
 # micheline-paquette
 
-Code repository for the [Micheline Paquette website](../projects/micheline-paquette-website.md). Remote: [decacreativesdev/micheline-paquette](https://github.com/decacreativesdev/micheline-paquette) (private), created 2026-10-28, remote name `origin`. Set up on 2026-10-28 from `ai-driven-template` v4.1 to match the Auto Industrial Paints and Khoury Construction repos ([setup note](../../sources/2026/10/2026-10-28-note-micheline-repo-setup.md)): Claude Code config only, monolith layout, project handle `micheline-paquette`, default git workflow. No commits yet. _(Corrected 2026-10-28: this page said the folder was empty and not scaffolded.)_
+Code repository for the [Micheline Paquette website](../projects/micheline-paquette-website.md). Remote: [decacreativesdev/micheline-paquette](https://github.com/decacreativesdev/micheline-paquette) (private), created 2026-10-28, remote name `origin`. Set up on 2026-10-28 from `ai-driven-template` v4.1 to match the Auto Industrial Paints and Khoury Construction repos ([setup note](../../sources/2026/10/2026-10-28-note-micheline-repo-setup.md)): Claude Code config only, monolith layout, project handle `micheline-paquette`, default git workflow. Initial commit `5b7abbb` on `main` ([commit note](../../sources/2026/10/2026-10-28-note-micheline-repo-commit.md)). _(Corrected 2026-10-28: this page said the folder was empty and not scaffolded, then that it had no commits.)_
 
 - Filed into the repo: the [quote brief](../../sources/2026/10/2026-10-28-micheline-quote-brief.md) only, plus citation records for the clarifications doc and WhatsApp transcript. The HTML mockups in `docs-local/html-design-files/` are the Auto Industrial Paints sample, not Micheline's.
 - Quote basis depends on the repo's open questions - see [quote open questions](../decisions/2026-10-28-micheline-quote-open-questions.md).
