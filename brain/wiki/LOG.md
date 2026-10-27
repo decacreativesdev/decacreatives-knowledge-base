@@ -12,6 +12,23 @@ This file is **never loaded at session start**. It exists so `STATE.md` can stay
 
 The operation is one of `ingest`, `ask`, `brief`, `lint`, `decision`, `session`. The body is one to four bullets: what came in or was done, which pages changed (as real links), what was flagged, what is still open. The last five entries are `grep "^## \[" brain/wiki/LOG.md | head -5`.
 
+## [2026-10-28] session | aip-handoff
+
+- Updated the AIP line in `STATE.md` -> "Focus" to the drafted quote (see [AIP quote pricing](decisions/2026-10-28-aip-quote-pricing.md)). AIP repo committed as `7db889e`. Operator pausing until Camille's feedback.
+
+## [2026-10-28] session | indusolutions-repo-setup
+
+- Ran 2026-10-28 with Claude Code. Intent: install ai-driven-template into repos/indusolutions and assess the Indusolutions sources.
+- Touched: repos/indusolutions/ (not committed here), the three Indusolutions sources, the [Indusolutions website](projects/indusolutions-website.md), [Indusolutions repo](systems/indusolutions.md) and [Indusolutions](external/indusolutions.md) pages, [Decisions](decisions/README.md), [Tasks](tasks.md), this log, `STATE.md`.
+- Where it ended: repo setup done (not committed); brain ingest done; lint result in `STATE.md`.
+- Next: send Camille the Indusolutions open questions (a to n); draft the Indusolutions quote on assumptions; commit the repo.
+
+## [2026-10-28] ingest | Indusolutions brief, clarifications and repo setup
+
+- Captured the [Indusolutions quote brief](../sources/2026/10/2026-10-28-indusolutions-quote-brief.md) (decoded from a Pages file; cell pairing exact), the Indusolutions [clarifications excerpt](../sources/2026/10/2026-10-28-indusolutions-clarifications-answers.md) and the [operator note](../sources/2026/10/2026-10-28-note-indusolutions-repo-setup.md); repo `repos/indusolutions/` set up from `ai-driven-template` v4.1 to match the AIP, Khoury and Micheline repos (not committed).
+- Changed: [Indusolutions website](projects/indusolutions-website.md) (scope, superseded brief flagged, stack line no longer says SiteGround), [Indusolutions repo](systems/indusolutions.md) (corrected "still empty"), [Indusolutions](external/indusolutions.md), new [quote open questions](decisions/2026-10-28-indusolutions-quote-open-questions.md) (open) in [Decisions](decisions/README.md), [Tasks](tasks.md) (quote row updated, one row added, doc-review row noted).
+- Flagged: hosting SiteGround (brief, `STATE.md` standard stack) vs Hostinger (general answer); review rounds 3 vs 2; launch end Nov / early Dec with the Figma not started and undated; brief's video hero, Umbraco migration and mid November launch superseded; `docs-local/html-design-files/` are the AIP mockups, not Indusolutions'.
+
 ## [2026-10-28] session | micheline-quote
 
 - Ran 2026-10-28 with Claude Code, resumed after an editor crash (the session file was adopted; nothing had been changed). Intent: draft the Micheline quote (CSV) at USD 20/h and record the pricing decision.
