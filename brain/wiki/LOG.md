@@ -12,6 +12,10 @@ This file is **never loaded at session start**. It exists so `STATE.md` can stay
 
 The operation is one of `ingest`, `ask`, `brief`, `lint`, `decision`, `session`. The body is one to four bullets: what came in or was done, which pages changed (as real links), what was flagged, what is still open. The last five entries are `grep "^## \[" brain/wiki/LOG.md | head -5`.
 
+## [2026-10-28] session | micheline-repo-commit
+
+- Recorded the Micheline repo's initial commit `5b7abbb` on [Micheline repo](systems/micheline-paquette.md), from the operator's [commit note](../sources/2026/10/2026-10-28-note-micheline-repo-commit.md). Corrected "No commits yet". The repo's own `STATE.md` handoff updated to match (uncommitted there). Lint 0 errors.
+
 ## [2026-10-28] session | micheline-repo-setup
 
 - Ran 2026-10-28 02:06 to 02:12 with Claude Code. Intent: install ai-driven-template into repos/micheline-paquette and assess Micheline sources.
