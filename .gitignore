@@ -1,0 +1,35 @@
+# Environment & secrets
+.env
+.env.*
+*.key
+*.pem
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.obsidian/
+
+# Logs
+*.log
+
+# Linked code repositories - cloned here, never tracked by the brain
+repos/*
+!repos/README.md
+
+# Live session files - one per open AI session, ephemeral, never committed
+sessions/*
+!sessions/README.md
+
+# Inbox scratch that should never be committed
+brain/inbox/.DS_Store
+
+# AI tool local settings (user-specific, not project config)
+.claude/settings.local.json
+
+# Local client briefs, transcripts and mockups - never committed (AGENTS.md -> Safeguards)
+docs-local/
