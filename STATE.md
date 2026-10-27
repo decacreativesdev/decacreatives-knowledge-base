@@ -36,9 +36,9 @@ This file loads into every session, so it stays roughly constant-size however la
 
 | Session | Intent | Log entry |
 |---|---|---|
-| 2026-10-28-aip-handoff | AIP focus updated after the quote draft | [log 2026-10-28](brain/wiki/LOG.md) |
 | 2026-10-28-indusolutions-quote | Indusolutions quote draft recorded, under operator review | [log 2026-10-28](brain/wiki/LOG.md) |
 | 2026-10-28-aip-quote-v2 | AIP quote v2 at USD 1,815 recorded | [log 2026-10-28](brain/wiki/LOG.md) |
+| 2026-10-28-indusolutions-quote-v2 | Indusolutions quote-v2.csv (Epic, Story, Hours) added | [log 2026-10-28](brain/wiki/LOG.md) |
 
 ## Active Decisions
 

@@ -29,6 +29,6 @@ sources:
 - **Timeline:** about three and a half weeks from the Figma handover. Launch by about 2026-12-04 needs the Figma by about 2026-11-09; the Figma has no date yet.
 - **Hours:** Claude Code's estimate from the brief and clarifications only - there is no design. To be checked by the operator.
 
-**Line items and assumptions:** the repo's [quote](../../../repos/indusolutions/docs/quote.md) and [quote.csv](../../../repos/indusolutions/docs/quote.csv).
+**Line items and assumptions:** the repo's [quote](../../../repos/indusolutions/docs/quote.md) and [quote.csv](../../../repos/indusolutions/docs/quote.csv); [quote-v2.csv](../../../repos/indusolutions/docs/quote-v2.csv) is the same in Epic, Story, Hours with no totals.
 
 Back to [Decisions](README.md).
