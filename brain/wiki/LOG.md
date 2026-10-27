@@ -12,6 +12,11 @@ This file is **never loaded at session start**. It exists so `STATE.md` can stay
 
 The operation is one of `ingest`, `ask`, `brief`, `lint`, `decision`, `session`. The body is one to four bullets: what came in or was done, which pages changed (as real links), what was flagged, what is still open. The last five entries are `grep "^## \[" brain/wiki/LOG.md | head -5`.
 
+## [2026-10-28] session | khoury-quote-v2
+
+- Ran 2026-10-28 with Claude Code. At the operator's request, added `docs/quote-v2.csv` to repos/khoury-construction/: the quote as Epic, Story, Hours, 25 plain stories, no totals. `quote.csv` kept unchanged; same hours (115) and price, USD 2,530 (contingency in the price, not the list). Matches the Indusolutions quote-v2 layout.
+- Touched: repos/khoury-construction/ `docs/quote-v2.csv`, `docs/quote.md`, map, log, `STATE.md` (not committed here); [Khoury quote pricing](decisions/2026-10-28-khoury-quote-pricing.md) (mention of v2), this log, `STATE.md`. No facts changed, so no new source or task.
+
 ## [2026-10-28] session | indusolutions-quote-v2
 
 - Ran 2026-10-28 with Claude Code. At the operator's request, added `docs/quote-v2.csv` to repos/indusolutions/: the quote as Epic, Story, Hours, 21 plain stories, no totals. `quote.csv` kept unchanged; same hours and price, USD 1,826 (contingency in the price, not the list). Matches the AIP quote-v3 layout.
