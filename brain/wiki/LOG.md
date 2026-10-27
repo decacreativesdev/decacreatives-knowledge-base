@@ -19,6 +19,10 @@ The operation is one of `ingest`, `ask`, `brief`, `lint`, `decision`, `session`.
 - Where it ended: remotes filed; AIP repo page restored after an overwrite; lint 0 errors.
 - Next: clone or scaffold indusolutions, khoury-construction, micheline-paquette into `repos/`; update `repos/auto-industrial-paints/STATE.md` (still says "No remote yet") from inside that repo.
 
+## [2026-10-28] session | aip-repo-commit-fix
+
+- [AIP repo page](systems/auto-industrial-paints.md): recorded initial commit `b55159c` ([repo note](../sources/2026/10/2026-10-28-note-aip-repo-commit.md)), corrected "No commits yet", and corrected the remote-name gotcha (`deca-industrial`) to `origin` per [remote check](../sources/2026/10/2026-10-28-note-aip-repo-remote-check.md). The repo note's "No remote configured" was wrong and is corrected by the remote check. Push status not checked. Lint 0 errors.
+
 ## [2026-10-28] session | aip-suppliers-flag
 
 - Recorded the operator's answer on AIP suppliers; touched one source and this log. Lint 0 errors.
