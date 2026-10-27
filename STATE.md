@@ -34,9 +34,9 @@ This file loads into every session, so it stays roughly constant-size however la
 
 | Session | Intent | Log entry |
 |---|---|---|
-| 2026-10-28-aip-repo-setup | AIP repo set up from ai-driven-template; brief ingested | [log 2026-10-28](brain/wiki/LOG.md) |
 | 2026-10-28-aip-suppliers-flag | AIP suppliers recorded as site content only | [log 2026-10-28](brain/wiki/LOG.md) |
 | 2026-10-28-repo-remotes | GitHub remotes recorded for the four client repos | [log 2026-10-28](brain/wiki/LOG.md) |
+| 2026-10-28-aip-repo-commit-fix | AIP repo commit recorded, remote-name gotcha corrected | [log 2026-10-28](brain/wiki/LOG.md) |
 
 ## Active Decisions
 
