@@ -12,6 +12,18 @@ This file is **never loaded at session start**. It exists so `STATE.md` can stay
 
 The operation is one of `ingest`, `ask`, `brief`, `lint`, `decision`, `session`. The body is one to four bullets: what came in or was done, which pages changed (as real links), what was flagged, what is still open. The last five entries are `grep "^## \[" brain/wiki/LOG.md | head -5`.
 
+## [2026-10-28] session | micheline-quote
+
+- Ran 2026-10-28 with Claude Code, resumed after an editor crash (the session file was adopted; nothing had been changed). Intent: draft the Micheline quote (CSV) at USD 20/h and record the pricing decision.
+- Touched: repos/micheline-paquette/ `docs/quote.md`, `docs/quote.csv`, map, log, `STATE.md` (not committed here); the [pricing note](../sources/2026/10/2026-10-28-note-micheline-quote-pricing.md), [Micheline quote pricing](decisions/2026-10-28-micheline-quote-pricing.md), [Decisions](decisions/README.md), [Micheline website](projects/micheline-paquette-website.md), [Tasks](tasks.md), this log, `STATE.md`.
+- Where it ended: quote drafted; lint 0 errors. Next: operator reviews the hours, then sends the quote with the open questions (a to m).
+
+## [2026-10-28] decision | Micheline quote pricing
+
+- Accepted [Micheline quote pricing](decisions/2026-10-28-micheline-quote-pricing.md): quote now on written assumptions; USD 20/h; base USD 1,518 fixed (75.9 hours incl. 10% contingency), bilingual in the base; add-ons separate; WP Care USD 40/site/month. Draft under operator review, not sent. [pricing note](../sources/2026/10/2026-10-28-note-micheline-quote-pricing.md)
+- Changed: [Decisions](decisions/README.md), [Micheline website](projects/micheline-paquette-website.md), [Tasks](tasks.md) (quote row: source, status and notes). Line items are in the repo's `docs/quote.md` and `docs/quote.csv`.
+- Flagged: priced on the simplified scope, not the brief's; end of December needs the Figma by about 2026-12-04, against Camille's "ideally end of Dec".
+
 ## [2026-10-28] session | micheline-repo-commit
 
 - Recorded the Micheline repo's initial commit `5b7abbb` on [Micheline repo](systems/micheline-paquette.md), from the operator's [commit note](../sources/2026/10/2026-10-28-note-micheline-repo-commit.md). Corrected "No commits yet". The repo's own `STATE.md` handoff updated to match (uncommitted there). Lint 0 errors.
