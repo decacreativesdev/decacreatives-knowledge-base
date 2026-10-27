@@ -1,15 +1,18 @@
 ---
 type: decision
-status: accepted
+status: superseded
 date: 2026-10-28
 updated: 2026-10-28
 sources:
   - ../../sources/2026/10/2026-10-28-note-aip-quote-pricing.md
   - ../../sources/2026/10/2026-10-28-note-hourly-rate.md
   - ../../sources/2026/10/2026-10-24-aip-quote-brief.md
+  - ../../sources/2026/10/2026-10-28-note-aip-quote-v2.md
 ---
 
 # AIP quote pricing
+
+**Superseded in part 2026-10-28** by [AIP quote v2](2026-10-28-aip-quote-v2.md): the core price is now USD 1,815 fixed, replacing the USD 1,120-1,660 range below. The rate, WP Care and the reasoning still stand.
 
 **Decision:** quote the [Auto Industrial Paints website](../projects/auto-industrial-paints-website.md) now, before the [open questions](2026-10-28-aip-quote-open-questions.md) are answered. Decided by [Joshua Clifford Reyes](../people/joshua-clifford-reyes.md) on 2026-10-28. [pricing note](../../sources/2026/10/2026-10-28-note-aip-quote-pricing.md)
 
