@@ -2,8 +2,9 @@
 type: person
 role: Lead Developer
 org: Decacreatives
-updated: 2026-10-28
+updated: 2026-11-01
 sources:
+  - ../../sources/2026/11/2026-11-01-note-quotes-sent-sheets.md
   - ../../sources/2026/10/2026-10-28-setup-answers.md
   - ../../sources/2026/10/2026-10-28-note-hourly-rate.md
 ---
@@ -15,3 +16,4 @@ The operator of this brain. Lead Developer at Decacreatives; goes by "Dash" in c
 - Owns (on the studio side, assumed): [Indusolutions website](../projects/indusolutions-website.md), [Khoury Construction website](../projects/khoury-construction-website.md), [Micheline Paquette website](../projects/micheline-paquette-website.md), [Auto Industrial Paints website](../projects/auto-industrial-paints-website.md).
 - Hourly rate for quotes: USD 20, given for the Auto Industrial Paints quote on 2026-10-28. [rate note](../../sources/2026/10/2026-10-28-note-hourly-rate.md)
 - Studio-wide open item: add the Figma link - see [Tasks](../tasks.md).
+- Edited the four quote sheets by hand before Madz sent them, see [sheets sent](../decisions/2026-11-01-quote-sheets-sent.md).

@@ -18,15 +18,13 @@ This file loads into every session, so it stays roughly constant-size however la
 
 ## Lint Status
 
-2026-10-28 - lint: 0 error(s), 1 warning(s) (Indusolutions quote overdue); inbox empty (rerun after the Indusolutions ingest).
+2026-11-01 - lint: 0 error(s), 0 warning(s); inbox empty.
 
 ## Focus
 
-- Review the Indusolutions quote draft (USD 1,826 fixed base), then send it with the open questions (a to n) - overdue since 2026-10-26, see [Tasks](brain/wiki/tasks.md)
-- Review the Micheline quote draft (USD 1,518 fixed base), then send it with the open questions (a to m) - see [Tasks](brain/wiki/tasks.md)
-- Review Camille's updated clarifications doc, then quote Khoury Construction, Auto Industrial Paints - see [Tasks](brain/wiki/tasks.md)
-- Check the AIP quote draft (USD 1,815 fixed base, WP Care USD 40/month), then send it to Camille with the open questions (a to l) - see [Tasks](brain/wiki/tasks.md)
-- Review the Khoury quote draft (USD 2,530 fixed base), then send it to Camille with the open questions (a to o) - see [Tasks](brain/wiki/tasks.md)
+- Madz: coffee with Camille on 2026-11-02, Monday afternoon AEST - see [Tasks](brain/wiki/tasks.md)
+- Madz: review and send the Ocean Blue Residence quote v2 (USD 2,420) by 2026-11-04 - see [Tasks](brain/wiki/tasks.md)
+- Confirm whether timelines, add-ons and the maintenance price reached Camille - see [Tasks](brain/wiki/tasks.md)
 
 ## Blockers
 
@@ -36,9 +34,9 @@ This file loads into every session, so it stays roughly constant-size however la
 
 | Session | Intent | Log entry |
 |---|---|---|
-| 2026-10-28-indusolutions-quote-v2 | Indusolutions quote-v2.csv (Epic, Story, Hours) added | [log 2026-10-28](brain/wiki/LOG.md) |
-| 2026-10-28-khoury-quote-v2 | Khoury quote-v2.csv (Epic, Story, Hours) added | [log 2026-10-28](brain/wiki/LOG.md) |
 | 2026-10-28-micheline-quote-v2 | Micheline quote-v2.csv (Epic, Story, Hours) added | [log 2026-10-28](brain/wiki/LOG.md) |
+| 2026-10-31-wechat-version-check | Feasibility of a read-only local chat MCP (WeChat, then WhatsApp) | [log 2026-11-01](brain/wiki/LOG.md) |
+| 2026-11-01-ocean-blue-whatsapp | Ocean Blue quote v2 and quote sheets recorded as sent | [log 2026-11-01](brain/wiki/LOG.md) |
 
 ## Active Decisions
 
@@ -48,11 +46,13 @@ This file loads into every session, so it stays roughly constant-size however la
 | 2026-10-28 | Standard stack: SiteGround + WordPress + Elementor Pro | operator's org description |
 | 2026-10-19 | Khoury and Micheline launch Jan/Feb 2027; Indusolutions stays end Nov / early Dec 2026 | Camille, WhatsApp, after client meetings |
 | 2026-10-28 | Each client site has its own repo under `repos/`, never committed here | operator, setup |
+| 2026-11-01 | Camille holds the sheet prices, not the 2026-10-28 drafts | [sheets sent](brain/wiki/decisions/2026-11-01-quote-sheets-sent.md) |
 | 2026-10-28 | Assumption: operator owns all four projects on the studio side | the operator is quoting; owners not otherwise known |
 | 2026-10-28 | Assumption: Auto Industrial Paints is a client, unconfirmed | operator: "I think so" |
 
 ## Known Gotchas
 
+- Sessions may be run by Madz, not the operator named in `AGENTS.md`: confirm who "I" is before crediting a note.
 - Micheline's deadline moved within a day (end Jan, then mid Jan, end Dec preferred): always use the latest message.
 - Madz may miss WhatsApp notifications on their laptop.
 - WhatsApp timestamps are in the sender's local zone; Camille is in Australia (+61), so dates can be a day off.

@@ -1,10 +1,11 @@
 # Projects
 
-One page per stream of work. All four are client websites at the quoting stage, brought in by Camille Malloch.
+One page per stream of work. The four client websites are at the quoting stage, brought in by Camille Malloch.
 
 - [Indusolutions website](indusolutions-website.md) - target launch end Nov / early Dec 2026; quote overdue
 - [Micheline Paquette website](micheline-paquette-website.md) - deadline mid January 2027, end Dec 2026 preferred
 - [Khoury Construction website](khoury-construction-website.md) - launch Jan or Feb 2027
 - [Auto Industrial Paints website](auto-industrial-paints-website.md) - guides site; no deadline stated yet; final design waits on Figma
+- [Ocean Blue Residence benchmark quote](ocean-blue-residence-benchmark-quote.md) - pricing exercise for Camille, no build planned; draft USD 2,420, due 2026-11-04
 
 Back to [the map](../README.md).

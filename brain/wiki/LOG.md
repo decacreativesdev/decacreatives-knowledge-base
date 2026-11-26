@@ -12,6 +12,54 @@ This file is **never loaded at session start**. It exists so `STATE.md` can stay
 
 The operation is one of `ingest`, `ask`, `brief`, `lint`, `decision`, `session`. The body is one to four bullets: what came in or was done, which pages changed (as real links), what was flagged, what is still open. The last five entries are `grep "^## \[" brain/wiki/LOG.md | head -5`.
 
+## [2026-11-01] session | ocean-blue-whatsapp
+
+- Ran 2026-11-01 with Claude Code, with Madz at the keyboard. Intent: ingest WhatsApp messages about the Ocean Blue Residence quote and Monday call.
+- Where it ended: Ocean Blue quote v2 saved (121 hours, USD 2,420). Four quotes marked sent, drafts superseded.
+- Next: Madz reviews and sends v2 by 2026-11-04; confirm timelines, add-ons and maintenance price with Camille.
+
+## [2026-11-01] ingest | Four quotes marked sent; Ocean Blue quote v2 drafted
+
+- Source: [identity note](../sources/2026/11/2026-11-01-note-madz-identity.md). The person in this session is Madz; it corrects the credit on three 2026-11-01 notes.
+- Completed and removed from [Tasks](tasks.md): the send-quote rows for Indusolutions (overdue since 2026-10-26), Micheline Paquette, Khoury Construction and Auto Industrial Paints, owner Joshua Clifford Reyes; sent by Madz on or before 2026-10-29, date and full set inferred.
+- Changed: new [Quote sheets sent](decisions/2026-11-01-quote-sheets-sent.md); four project pages, four pricing decisions marked superseded, [Decisions](decisions/README.md), [Tasks](tasks.md), [Ocean Blue](projects/ocean-blue-residence-benchmark-quote.md), [Madz](people/madz.md), [Joshua Clifford Reyes](people/joshua-clifford-reyes.md), [Camille Malloch](people/camille-malloch.md), `STATE.md`.
+- Output: `docs-local/quotations/ocean-blue-residence-quote-v2.xlsx`, 121 hours, USD 2,420; the first file is unchanged.
+- Flagged: timelines, add-ons and the maintenance price are unconfirmed; repo `docs/quote.md` files still show the old prices; `AGENTS.md` keeps Joshua as operator.
+
+## [2026-11-01] ingest | Camille received the quote sheets, not the wiki prices
+
+- Source: [quotes sent note](../sources/2026/11/2026-11-01-note-quotes-sent-sheets.md). Answers the contradiction flagged below; it also corrects the [estimate note](../sources/2026/11/2026-11-01-note-ocean-blue-quote-estimate.md).
+- Held, not filed: closing the four quote tasks and superseding the pricing decisions, until the sender is confirmed.
+- Flagged: the chat wording suggests the person at the keyboard is Madz, while `AGENTS.md` names Joshua Clifford Reyes as operator. The three other 2026-11-01 notes credit Joshua.
+
+## [2026-11-01] ingest | Ocean Blue Residence filed as a benchmark quote
+
+- Source: [benchmark note](../sources/2026/11/2026-11-01-note-ocean-blue-benchmark.md). Resolves the items held in the two entries below.
+- Changed: new page [Ocean Blue Residence benchmark quote](projects/ocean-blue-residence-benchmark-quote.md), [Projects](projects/README.md), [Tasks](tasks.md), [Madz](people/madz.md), [Camille Malloch](people/camille-malloch.md).
+- Inferred: Madz owns the task, from their message; due 2026-11-04 from Camille's. The purpose is the operator's understanding, unconfirmed by Camille.
+- Still flagged: which quotes Camille received, and whether contingency and USD 20 or 40 maintenance apply.
+
+## [2026-11-01] ingest | Ocean Blue Residence estimate drafted
+
+- Source: [estimate note](../sources/2026/11/2026-11-01-note-ocean-blue-quote-estimate.md).
+- Drafted `docs-local/quotations/ocean-blue-residence-quote.xlsx`: 115 hours, USD 2,300 at USD 20/h, Claude Code's estimate, pending the operator's review, not sent.
+- Held, not filed: the task and pages, until it is known where Ocean Blue belongs and who owns the quote.
+- Flagged: contradiction - the sheets in `docs-local/quotations` carry no contingency and the maintenance sheet says USD $20/monthly, while the 2026-10-28 pricing decisions show base prices with 10% contingency and WP Care USD 40/site/month. Ambiguity - the Ocean Blue site names E. Khoury Construction as a project partner, possibly the existing [Khoury Construction](external/khoury-construction.md) client; not confirmed.
+
+## [2026-11-01] ingest | Camille and Madz coffee moved to 2026-11-02
+
+- Source: [WhatsApp messages](../sources/2026/11/2026-11-01-whatsapp-camille-madz-ocean-blue.md), Camille's number redacted.
+- Changed: [Tasks](tasks.md), [Madz](people/madz.md). Coffee is now 2026-11-02, Monday afternoon AEST, confirmed by Madz, and includes a walk-through of websites that need management.
+- Held, not filed: the Ocean Blue Residence pricing request to Madz. Where it belongs is unanswered; Camille wants it by 2026-11-04 or end of that week, Madz promised EOD 2026-10-30 PHT, and whether it was sent is unknown.
+- Flagged: contradiction - Camille thanks Madz for "those quotes" on 2026-10-29, while [Tasks](tasks.md) and the 2026-10-28 pricing decisions show all four quotes unsent. Unresolved.
+
+## [2026-11-01] session | wechat-version-check
+
+- Ran 2026-10-31 17:27 to 2026-11-01 18:59 with Claude Code. Intent: feasibility of a read-only local chat MCP (WeChat, then WhatsApp)
+- Touched: nothing
+- Where it ended: Answered feasibility only. WeChat not found on this machine; operator meant WhatsApp. WhatsApp Desktop (Store app, 2.2641.101.0) is installed. No MCP built, no chat data read, no wiki pages changed.
+- Next: Operator leaning to manual WhatsApp exports; ingest any export through brain/inbox or docs-local.
+
 ## [2026-10-28] session | micheline-quote-v2
 
 - Ran 2026-10-28 with Claude Code. At the operator's request, added `docs/quote-v2.csv` to repos/micheline-paquette/: the quote as Epic, Story, Hours, 21 plain stories plus add-ons and WP Care, no totals. `quote.csv` kept unchanged; same hours (69) and price, USD 1,518 (contingency in the price, not the list). Matches the Khoury and Indusolutions quote-v2 layout.

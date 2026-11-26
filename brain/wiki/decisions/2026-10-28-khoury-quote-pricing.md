@@ -1,15 +1,18 @@
 ---
 type: decision
-status: accepted
+status: superseded
 date: 2026-10-28
-updated: 2026-10-28
+updated: 2026-11-01
 sources:
+  - ../../sources/2026/11/2026-11-01-note-madz-identity.md
   - ../../sources/2026/10/2026-10-28-note-khoury-quote-pricing.md
   - ../../sources/2026/10/2026-10-28-note-hourly-rate.md
   - ../../sources/2026/10/2026-10-28-khoury-quote-brief.md
 ---
 
 # Khoury quote pricing
+
+**Superseded 2026-11-01:** USD 2,530 was not the price sent. See [Quote sheets sent](2026-11-01-quote-sheets-sent.md).
 
 **Decision:** quote the [Khoury Construction website](../projects/khoury-construction-website.md) now, before the [open questions](2026-10-28-khoury-quote-open-questions.md) are answered, as a fixed price on written assumptions. Decided by [Joshua Clifford Reyes](../people/joshua-clifford-reyes.md) on 2026-10-28. The draft is **under the operator's review** and not sent. [pricing note](../../sources/2026/10/2026-10-28-note-khoury-quote-pricing.md)
 

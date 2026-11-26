@@ -3,8 +3,9 @@ type: project
 status: active
 owner: Joshua Clifford Reyes (assumed)
 due: open
-updated: 2026-10-28
+updated: 2026-11-01
 sources:
+  - ../../sources/2026/11/2026-11-01-note-madz-identity.md
   - ../../sources/2026/10/2026-10-28-setup-answers.md
   - ../../sources/2026/10/2026-10-28-indusolutions-quote-brief.md
   - ../../sources/2026/10/2026-10-28-indusolutions-clarifications-answers.md
@@ -21,7 +22,7 @@ Client website for [Indusolutions](../external/indusolutions.md), brought in by 
 - **Scope (current):** a redesign of the old site at indusolutions.com.au: about 5 template type pages, several service pages on one template, an image slideshow hero, and a detailed quote request form like the Gascoyne Haulage pickup request. Camille's simple package ("no custom dev, templated"). No content migration: "Ignore all content on live site"; Camille provides images and the privacy policy, and the client's IT department handles the DNS cutover and email. Per the [clarifications excerpt](../../sources/2026/10/2026-10-28-indusolutions-clarifications-answers.md).
 - **Superseded:** the brief's video hero references, its plan to move content by hand from the Umbraco site, and its mid November launch. _(Flagged 2026-10-28.)_
 - **Open:** host and review rounds (3 in the brief vs 2 in a general answer); the page list and the quote form fields are not agreed. See [quote open questions](../decisions/2026-10-28-indusolutions-quote-open-questions.md).
-- **Quote:** draft USD 1,826 fixed base at USD 20/h, plus add-ons and WP Care USD 40/month; launch by about 2026-12-04 needs the Figma by about 2026-11-09. Under the operator's review, not sent - see [quote pricing](../decisions/2026-10-28-indusolutions-quote-pricing.md).
+- **Quote:** sent to Camille on or before 2026-10-29: USD 1,680 (84 hours), see [sheets sent](../decisions/2026-11-01-quote-sheets-sent.md). Superseded 2026-11-01: draft USD 1,826 fixed base at USD 20/h, plus add-ons and WP Care USD 40/month; launch by about 2026-12-04 needs the Figma by about 2026-11-09. Under the operator's review, not sent - see [quote pricing](../decisions/2026-10-28-indusolutions-quote-pricing.md).
 - **Repo docs:** [quote](../../../repos/indusolutions/docs/quote.md), [requirements](../../../repos/indusolutions/docs/requirements.md), [open questions](../../../repos/indusolutions/docs/open-questions.md) (a to n), [build approach](../../../repos/indusolutions/docs/build-approach.md).
 - **Open question:** on 2026-10-24 Camille also pitched another business in the Indusolutions company group and attached its brief. Which business that is has not been identified; it is not Auto Industrial Paints.
 

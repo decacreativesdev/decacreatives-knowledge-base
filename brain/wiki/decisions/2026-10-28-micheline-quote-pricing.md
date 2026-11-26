@@ -1,9 +1,10 @@
 ---
 type: decision
-status: accepted
+status: superseded
 date: 2026-10-28
-updated: 2026-10-28
+updated: 2026-11-01
 sources:
+  - ../../sources/2026/11/2026-11-01-note-madz-identity.md
   - ../../sources/2026/10/2026-10-28-note-micheline-quote-pricing.md
   - ../../sources/2026/10/2026-10-28-note-hourly-rate.md
   - ../../sources/2026/10/2026-10-28-micheline-quote-brief.md
@@ -11,6 +12,8 @@ sources:
 ---
 
 # Micheline quote pricing
+
+**Superseded 2026-11-01:** USD 1,518 was not the price sent. See [Quote sheets sent](2026-11-01-quote-sheets-sent.md).
 
 **Decision:** quote the [Micheline Paquette website](../projects/micheline-paquette-website.md) now, before the [open questions](2026-10-28-micheline-quote-open-questions.md) are answered, as a fixed price on written assumptions. Decided by [Joshua Clifford Reyes](../people/joshua-clifford-reyes.md) on 2026-10-28. The draft is **under the operator's review** and not sent. [pricing note](../../sources/2026/10/2026-10-28-note-micheline-quote-pricing.md)
 
