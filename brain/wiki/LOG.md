@@ -12,6 +12,17 @@ This file is **never loaded at session start**. It exists so `STATE.md` can stay
 
 The operation is one of `ingest`, `ask`, `brief`, `lint`, `decision`, `session`. The body is one to four bullets: what came in or was done, which pages changed (as real links), what was flagged, what is still open. The last five entries are `grep "^## \[" brain/wiki/LOG.md | head -5`.
 
+## [2026-11-27] session | haskour-cpa-remote
+
+- Short session with Claude Code, with Madz at the keyboard. Intent: record the haskour-cpa repo remote and first commit.
+- Where it ended: [haskour-cpa](systems/haskour-cpa.md) updated; lint clean. Nothing open.
+
+## [2026-11-27] ingest | haskour-cpa repo pushed to GitHub
+
+- Source: [push note](../sources/2026/11/2026-11-27-note-madz-haskour-repo-pushed.md).
+- Changed: [haskour-cpa](systems/haskour-cpa.md) - remote `origin` at decacreativesdev/haskour-cpa, initial commit `e456c93` on `main`; [Systems](systems/README.md) row. Supersedes the "no remote and no commit yet" flag in the entry below.
+- Flagged: none.
+
 ## [2026-11-27] session | haskour-cpa-repo-setup
 
 - Ran 2026-11-27 04:07 to 2026-11-27 23:06 with Claude Code, with Madz at the keyboard. Intent: set up `repos/haskour-cpa` from ai-driven-template v5 and assess the Haskour CPA project overview.

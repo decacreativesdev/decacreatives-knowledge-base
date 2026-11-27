@@ -6,6 +6,6 @@ Products, tools, and one index page per code repository. Each client site repo l
 - [indusolutions](indusolutions.md) - repo for the Indusolutions website; remote created, folder empty
 - [khoury-construction](khoury-construction.md) - repo for the Khoury Construction website; remote created, folder empty
 - [micheline-paquette](micheline-paquette.md) - repo for the Micheline Paquette website; remote created, folder empty
-- [haskour-cpa](haskour-cpa.md) - repo for the Haskour CPA website, set up 2026-11-27 from ai-driven-template v5; no remote, no commit yet
+- [haskour-cpa](haskour-cpa.md) - repo for the Haskour CPA website, set up 2026-11-27 from ai-driven-template v5; remote created, initial commit `e456c93`
 
 Back to [the map](../README.md).

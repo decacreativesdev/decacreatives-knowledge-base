@@ -34,9 +34,9 @@ This file loads into every session, so it stays roughly constant-size however la
 
 | Session | Intent | Log entry |
 |---|---|---|
-| 2026-11-01-ocean-blue-whatsapp | Ocean Blue quote v2 and quote sheets recorded as sent | [log 2026-11-01](brain/wiki/LOG.md) |
 | 2026-11-09-camille-catch-up | Camille catch-up, WP Care invoices and Haskour quotes sent | [log 2026-11-27](brain/wiki/LOG.md) |
 | 2026-11-27-haskour-cpa-repo-setup | Haskour CPA repo set up; quote amounts and build approach recorded | [log 2026-11-27](brain/wiki/LOG.md) |
+| 2026-11-27-haskour-cpa-remote | haskour-cpa remote and first commit recorded | [log 2026-11-27](brain/wiki/LOG.md) |
 
 ## Active Decisions
 
