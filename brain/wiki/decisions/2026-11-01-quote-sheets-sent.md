@@ -2,8 +2,9 @@
 type: decision
 status: accepted
 date: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-27
 sources:
+  - ../../sources/2026/11/2026-11-09-meeting-camille-madz-transcript.md
   - ../../sources/2026/11/2026-11-01-note-quotes-sent-sheets.md
   - ../../sources/2026/11/2026-11-01-note-madz-identity.md
 ---
@@ -21,6 +22,7 @@ sources:
 
 - The sheets have no contingency row.
 - Sent date and that all four went are inferred, see the [identity note](../../sources/2026/11/2026-11-01-note-madz-identity.md).
-- Unconfirmed: whether timelines, add-ons and open questions reached Camille, and which maintenance price applies: USD 40/site/month in the 2026-10-28 decisions, USD $20/monthly in `wordpress-site-maintenance-package.xlsx`.
+- Unconfirmed: whether timelines, add-ons and open questions reached Camille.
+- Resolved 2026-11-27: maintenance is USD 20 per site per month. Camille accepted it in the 2026-11-09 catch-up; it replaces USD 40/site/month. See [WP Care website management](../projects/wp-care-website-management.md).
 
 Back to [Decisions](README.md).

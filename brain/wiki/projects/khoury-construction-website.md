@@ -3,8 +3,9 @@ type: project
 status: active
 owner: Joshua Clifford Reyes (assumed)
 due: open
-updated: 2026-11-01
+updated: 2026-11-27
 sources:
+  - ../../sources/2026/11/2026-11-25-whatsapp-camille-madz-haskour-deadlines.md
   - ../../sources/2026/11/2026-11-01-note-madz-identity.md
   - ../../sources/2026/10/2026-10-28-setup-answers.md
   - ../../sources/2026/10/2026-10-28-khoury-quote-brief.md
@@ -16,6 +17,7 @@ sources:
 Client website for [Khoury Construction](../external/khoury-construction.md), brought in by [Camille Malloch](../people/camille-malloch.md). Studio-side owner: [Joshua Clifford Reyes](../people/joshua-clifford-reyes.md) (assumed - see `STATE.md` -> "Active Decisions"). Stack: SiteGround + WordPress + Elementor Pro. Code: [Khoury Construction repo](../systems/khoury-construction.md).
 
 - **Status:** quoting, not started. Contact: [E. Khoury](../people/e-khoury.md).
+- **Flagged 2026-11-27:** Camille on 2026-11-25: "(Other projects pushed to next year)", after naming only Indusolutions, Micheline and Haskour CPA. Probably includes this project; not confirmed. [WhatsApp](../../sources/2026/11/2026-11-25-whatsapp-camille-madz-haskour-deadlines.md)
 - **Target launch:** Jan or Feb 2027, agreed between Camille and E. Khoury (2026-10-19). The [quote brief](../../sources/2026/10/2026-10-28-khoury-quote-brief.md) (on or before 2026-10-08) said "early December"; the later date wins.
 - **What it is** (from the brief): a portfolio-first site for "E. Khoury Construction" (founded 1987) aimed at potential property investors and partners, not property sales. Image-led project pages with a spec block and gallery, a homepage project carousel, light scroll reveals, a news and press feed, a contact form. Optional: hero video and history timeline. The client edits projects and news.
 - **Constraints:** the current site is French; WPML for French and English is likely, priced as a separate line. Quebec's Law 25 applies: opt-in cookie banner before analytics, privacy policy page. No design yet (Figma not started) and no sitemap.

@@ -3,8 +3,11 @@ type: project
 status: active
 owner: Joshua Clifford Reyes (assumed)
 due: open
-updated: 2026-11-01
+updated: 2026-11-27
 sources:
+  - ../../sources/2026/11/2026-11-25-whatsapp-camille-madz-haskour-deadlines.md
+  - ../../sources/2026/11/2026-11-24-email-camille-websites-next-steps.md
+  - ../../sources/2026/11/2026-11-09-meeting-camille-madz-transcript.md
   - ../../sources/2026/11/2026-11-01-note-madz-identity.md
   - ../../sources/2026/10/2026-10-28-setup-answers.md
   - ../../sources/2026/10/2026-10-28-micheline-quote-brief.md
@@ -18,7 +21,9 @@ sources:
 Client website for [Micheline Paquette](../external/micheline-paquette.md), brought in by [Camille Malloch](../people/camille-malloch.md). Studio-side owner: [Joshua Clifford Reyes](../people/joshua-clifford-reyes.md) (assumed - see `STATE.md` -> "Active Decisions"). Stack: SiteGround + WordPress + Elementor Pro. Code: [Micheline Paquette repo](../systems/micheline-paquette.md).
 
 - **Status:** quoting, not started. Contact: [Micheline Paquette](../people/micheline-paquette.md).
-- **Deadline:** mid January 2027, confirmed with the client; Camille would ideally like it completed by end of December 2026 and asked whether that is possible (2026-10-24).
+- **2026-11-09:** creative workshop part 1 held the week before; part 2 on 2026-11-10 or 2026-11-11. Camille will send a website draft once Micheline approves it, likely one to two weeks later. With Indusolutions, one of Camille's two active projects. [transcript](../../sources/2026/11/2026-11-09-meeting-camille-madz-transcript.md)
+- **Deadline (2026-11-25):** hard deadline 2027-01-15, finished, tested and live; end of Dec 2026 ideal, early Jan acceptable. Third design meeting on Thursday 2026-11-26; Camille hopes the design is final the following week. [WhatsApp](../../sources/2026/11/2026-11-25-whatsapp-camille-madz-haskour-deadlines.md) [email](../../sources/2026/11/2026-11-24-email-camille-websites-next-steps.md)
+- **Earlier deadline:** mid January 2027, confirmed with the client; Camille would ideally like it completed by end of December 2026 and asked whether that is possible (2026-10-24).
 - **History:** 2026-10-19 launch agreed for Jan or Feb 2027; 2026-10-24 confirmed as end of January, corrected the same day to mid January.
 - **Scope (current):** a small bilingual (English and French) portfolio - a home page with hero, bio, image gallery and projects, plus a standalone contact page - per Camille's answers in the [clarifications excerpt](../../sources/2026/10/2026-10-28-micheline-clarifications-answers.md). Light and dark mode, planning for a future shop, and email support are out. WPML for the two languages; Law 25 opt-in consent in scope.
 - **Superseded:** the [quote brief](../../sources/2026/10/2026-10-28-micheline-quote-brief.md) (2026-10-08) scoped two pages with a shadow and light theme, six reference sites, a light and dark mode switch and launch "By the end of 2026." Camille: "Disregard all examples from my dev brief". _(Flagged 2026-10-28.)_

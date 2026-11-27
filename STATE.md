@@ -18,13 +18,13 @@ This file loads into every session, so it stays roughly constant-size however la
 
 ## Lint Status
 
-2026-11-01 - lint: 0 error(s), 0 warning(s); inbox empty.
+2026-11-27 - lint: 0 error(s), 0 warning(s); inbox empty.
 
 ## Focus
 
-- Madz: coffee with Camille on 2026-11-02, Monday afternoon AEST - see [Tasks](brain/wiki/tasks.md)
-- Madz: review and send the Ocean Blue Residence quote v2 (USD 2,420) by 2026-11-04 - see [Tasks](brain/wiki/tasks.md)
-- Confirm whether timelines, add-ons and the maintenance price reached Camille - see [Tasks](brain/wiki/tasks.md)
+- Madz, due 2026-11-30: November reports for the two Haulage sites, waiting on Bitwarden - see [Tasks](brain/wiki/tasks.md)
+- Madz: waiting on Camille's replies to the 2026-11-27 WhatsApp round-up - see [Tasks](brain/wiki/tasks.md)
+- Confirm whether timelines and add-ons reached Camille - see [Tasks](brain/wiki/tasks.md)
 
 ## Blockers
 
@@ -34,9 +34,9 @@ This file loads into every session, so it stays roughly constant-size however la
 
 | Session | Intent | Log entry |
 |---|---|---|
-| 2026-10-28-micheline-quote-v2 | Micheline quote-v2.csv (Epic, Story, Hours) added | [log 2026-10-28](brain/wiki/LOG.md) |
 | 2026-10-31-wechat-version-check | Feasibility of a read-only local chat MCP (WeChat, then WhatsApp) | [log 2026-11-01](brain/wiki/LOG.md) |
 | 2026-11-01-ocean-blue-whatsapp | Ocean Blue quote v2 and quote sheets recorded as sent | [log 2026-11-01](brain/wiki/LOG.md) |
+| 2026-11-09-camille-catch-up | Camille catch-up, WP Care invoices and Haskour quotes sent | [log 2026-11-27](brain/wiki/LOG.md) |
 
 ## Active Decisions
 
@@ -44,9 +44,10 @@ This file loads into every session, so it stays roughly constant-size however la
 |------|----------|-----------|
 | 2026-10-28 | Perspective `both`: wiki org-wide, brief filtered to the operator | operator, setup |
 | 2026-10-28 | Standard stack: SiteGround + WordPress + Elementor Pro | operator's org description |
-| 2026-10-19 | Khoury and Micheline launch Jan/Feb 2027; Indusolutions stays end Nov / early Dec 2026 | Camille, WhatsApp, after client meetings |
+| 2026-11-25 | Deadlines: Indusolutions end Dec (Jan fine, no hard date); Micheline hard 2027-01-15; Haskour CPA hard 2027-02-15; other projects pushed to 2027 | Camille, WhatsApp |
 | 2026-10-28 | Each client site has its own repo under `repos/`, never committed here | operator, setup |
 | 2026-11-01 | Camille holds the sheet prices, not the 2026-10-28 drafts | [sheets sent](brain/wiki/decisions/2026-11-01-quote-sheets-sent.md) |
+| 2026-11-24 | WP Care is USD 20 per site per month, reports on the last day of each month, Madz owns it | [WP Care](brain/wiki/projects/wp-care-website-management.md) |
 | 2026-10-28 | Assumption: operator owns all four projects on the studio side | the operator is quoting; owners not otherwise known |
 | 2026-10-28 | Assumption: Auto Industrial Paints is a client, unconfirmed | operator: "I think so" |
 

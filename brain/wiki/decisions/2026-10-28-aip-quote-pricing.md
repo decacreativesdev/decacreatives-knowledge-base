@@ -2,8 +2,9 @@
 type: decision
 status: superseded
 date: 2026-10-28
-updated: 2026-10-28
+updated: 2026-11-27
 sources:
+  - ../../sources/2026/11/2026-11-09-meeting-camille-madz-transcript.md
   - ../../sources/2026/10/2026-10-28-note-aip-quote-pricing.md
   - ../../sources/2026/10/2026-10-28-note-hourly-rate.md
   - ../../sources/2026/10/2026-10-24-aip-quote-brief.md
@@ -11,6 +12,8 @@ sources:
 ---
 
 # AIP quote pricing
+
+**Superseded 2026-11-27:** WP Care is USD 20 per site per month, not USD 40, accepted by Camille on 2026-11-09. See [WP Care website management](../projects/wp-care-website-management.md).
 
 **Superseded in part 2026-10-28** by [AIP quote v2](2026-10-28-aip-quote-v2.md): the core price is now USD 1,815 fixed, replacing the USD 1,120-1,660 range below. The rate, WP Care and the reasoning still stand.
 

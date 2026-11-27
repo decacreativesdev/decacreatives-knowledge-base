@@ -3,8 +3,11 @@ type: project
 status: active
 owner: Joshua Clifford Reyes (assumed)
 due: open
-updated: 2026-11-01
+updated: 2026-11-27
 sources:
+  - ../../sources/2026/11/2026-11-24-email-camille-websites-next-steps.md
+  - ../../sources/2026/11/2026-11-25-whatsapp-camille-madz-haskour-deadlines.md
+  - ../../sources/2026/11/2026-11-09-meeting-camille-madz-transcript.md
   - ../../sources/2026/11/2026-11-01-note-madz-identity.md
   - ../../sources/2026/10/2026-10-28-setup-answers.md
   - ../../sources/2026/10/2026-10-28-indusolutions-quote-brief.md
@@ -18,9 +21,11 @@ sources:
 Client website for [Indusolutions](../external/indusolutions.md), brought in by [Camille Malloch](../people/camille-malloch.md). Studio-side owner: [Joshua Clifford Reyes](../people/joshua-clifford-reyes.md) (assumed - see `STATE.md` -> "Active Decisions"). Stack: WordPress + Elementor Pro, English only; host SiteGround in the brief, Hostinger in a general answer - open. Code: [Indusolutions repo](../systems/indusolutions.md).
 
 - **Status:** quoting, not started. Camille wanted the quote and timeline before her second meeting with Indusolutions on 2026-10-26 to go over the website budget - overdue. The [quote brief](../../sources/2026/10/2026-10-28-indusolutions-quote-brief.md) (2026-10-06) had asked for it by 2026-10-09.
-- **Target launch:** end Nov / early Dec 2026 (Camille, 2026-10-19; unchanged when the other two moved). The brief's "Around mid November 2026" is superseded. The Figma has not started and has no date, so the launch date depends on it.
+- **Target launch:** end of Dec 2026 hoped for, Jan 2027 acceptable, no hard deadline (Camille, 2026-11-25). The client asked for an extra week to finalise the design, from 2026-11-24. [email](../../sources/2026/11/2026-11-24-email-camille-websites-next-steps.md) [WhatsApp](../../sources/2026/11/2026-11-25-whatsapp-camille-madz-haskour-deadlines.md)
+- **Superseded 2026-11-25:** end Nov / early Dec 2026 (Camille, 2026-10-19; unchanged when the other two moved). The brief's "Around mid November 2026" is superseded. The Figma has not started and has no date, so the launch date depends on it.
 - **Scope (current):** a redesign of the old site at indusolutions.com.au: about 5 template type pages, several service pages on one template, an image slideshow hero, and a detailed quote request form like the Gascoyne Haulage pickup request. Camille's simple package ("no custom dev, templated"). No content migration: "Ignore all content on live site"; Camille provides images and the privacy policy, and the client's IT department handles the DNS cutover and email. Per the [clarifications excerpt](../../sources/2026/10/2026-10-28-indusolutions-clarifications-answers.md).
 - **Superseded:** the brief's video hero references, its plan to move content by hand from the Umbraco site, and its mid November launch. _(Flagged 2026-10-28.)_
+- **2026-11-09:** walkthrough postponed; Camille had a final client meeting that week and expected to send material by the end of it. Camille uses MetForm and FluentSMTP for forms and left the plugin choice to Madz, "as long as we just use WordPress Elementor". She is setting up the group's businesses on Hostinger in their own account, a hint for the host question, not said about Indusolutions directly. [transcript](../../sources/2026/11/2026-11-09-meeting-camille-madz-transcript.md) [minutes](../../../repos/indusolutions/docs/sources/meeting/2026-11-09-camille-meeting-minutes.md)
 - **Open:** host and review rounds (3 in the brief vs 2 in a general answer); the page list and the quote form fields are not agreed. See [quote open questions](../decisions/2026-10-28-indusolutions-quote-open-questions.md).
 - **Quote:** sent to Camille on or before 2026-10-29: USD 1,680 (84 hours), see [sheets sent](../decisions/2026-11-01-quote-sheets-sent.md). Superseded 2026-11-01: draft USD 1,826 fixed base at USD 20/h, plus add-ons and WP Care USD 40/month; launch by about 2026-12-04 needs the Figma by about 2026-11-09. Under the operator's review, not sent - see [quote pricing](../decisions/2026-10-28-indusolutions-quote-pricing.md).
 - **Repo docs:** [quote](../../../repos/indusolutions/docs/quote.md), [requirements](../../../repos/indusolutions/docs/requirements.md), [open questions](../../../repos/indusolutions/docs/open-questions.md) (a to n), [build approach](../../../repos/indusolutions/docs/build-approach.md).

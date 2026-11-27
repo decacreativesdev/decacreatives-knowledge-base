@@ -12,6 +12,80 @@ This file is **never loaded at session start**. It exists so `STATE.md` can stay
 
 The operation is one of `ingest`, `ask`, `brief`, `lint`, `decision`, `session`. The body is one to four bullets: what came in or was done, which pages changed (as real links), what was flagged, what is still open. The last five entries are `grep "^## \[" brain/wiki/LOG.md | head -5`.
 
+## [2026-11-27] session | camille-catch-up
+
+- Ran 2026-11-09 13:02 to 2026-11-27 17:32 with Claude Code, with Madz at the keyboard. Intent: record the 2026-11-09 catch-up with Camille, then the 2026-11-24 to 2026-11-26 emails, WhatsApp, Haskour CPA overview and master sheet.
+- Where it ended: invoices DECA-2026-0001 and DECA-2026-0002 (USD 240 each) and the Haskour CPA quotes sent; WhatsApp round-up sent 2026-11-27; Zag Plumbing move answered as 7 to 9 hours.
+- Next: wait for Camille - Bitwarden confirmation (November reports only if access comes by 2026-11-30), Zag Plumbing go-live domain, IMR Group invoice, sample report, other site start dates.
+- Not committed from here: `repos/indusolutions/docs/sources/meeting/2026-11-09-camille-meeting-minutes.md` (read only), `docs-local/`, and the screenshot in the repo root.
+
+## [2026-11-27] ingest | WhatsApp round-up sent to Camille; Zag Plumbing estimate answered (done)
+
+- Source: [WhatsApp sent note](../sources/2026/11/2026-11-27-note-madz-whatsapp-roundup-sent.md).
+- Completed: the [Tasks](tasks.md) row "Tell Camille how long moving Zag Plumbing from Hostinger to SiteGround would take" (owner [Madz](people/madz.md)) - answered as 7 to 9 hours on tracked time. Replaced by a `waiting` row for Camille's replies.
+- Flagged: none.
+
+## [2026-11-27] ingest | Haskour CPA quotes sent to Camille (done)
+
+- Source: [sent note](../sources/2026/11/2026-11-27-note-madz-haskour-quotes-sent.md).
+- Completed: the [Tasks](tasks.md) row "Send Camille the two Haskour CPA quotes" (owner [Madz](people/madz.md), due 2026-11-30). Row removed.
+- Changed: [Haskour CPA website](projects/haskour-cpa-website.md) - quoted and sent; the repo exists.
+- Flagged: the versions and amounts sent are not recorded. `repos/haskour-cpa/STATE.md` still says "not sent"; that repo belongs to the live session `2026-11-27-haskour-cpa-repo-setup` and was not edited from here.
+
+## [2026-11-27] ingest | WP Care invoices sent to Camille (done)
+
+- Source: [sent note](../sources/2026/11/2026-11-27-note-madz-invoices-sent.md).
+- Completed: the [Tasks](tasks.md) row "Invoice Camille for WP Care" (owner [Madz](people/madz.md), due 2026-11-30) - DECA-2026-0001, Haulage, USD 240; DECA-2026-0002, Zag Plumbing, USD 240; sent by email 2026-11-27. Row removed.
+- Changed: [WP Care website management](projects/wp-care-website-management.md) billing line.
+- Flagged: none.
+
+## [2026-11-27] ingest | Zag Plumbing move quoted as a 7 to 9 hour range
+
+- Source: [range note](../sources/2026/11/2026-11-27-note-madz-zag-estimate-range.md).
+- Changed: [Tasks](tasks.md) Zag Plumbing row and [Zag Plumbing](external/zag-plumbing.md) - 7 to 9 h on tracked time replaces the single 9 h figure.
+- Flagged: none.
+
+## [2026-11-27] ingest | Camille's Website and Hosting Master Sheet; sample report named generally
+
+- Sources: [master sheet](../sources/2026/11/2026-11-24-sheet-camille-website-hosting-master.md), [Madz note](../sources/2026/11/2026-11-27-note-madz-kat-imr.md).
+- Changed: [WP Care website management](projects/wp-care-website-management.md) sites table now follows the sheet's WP Care column; [IMR Group](external/imr-group.md) confirmed on the WP Care plan; [Zag Plumbing](external/zag-plumbing.md) full temporary domain; [Kat](people/kat.md) name marked as heard, not confirmed; new [Garderie Fun Academy](external/garderie-fun-academy.md) and hub row.
+- Flagged: contradiction - the WP Care page said anitanowak.ca was moving to anitanowak.com, the sheet shows anitanowak.com parked at anitanowak.ca (source wins, flag on the page). Unknown entity - garderiefunacademy.com, marked WP Care but never mentioned by Camille. IMR Group and three non-WP Care deca sites sit on Hostinger, which Camille said is only for Malbros businesses; no move has been asked for. The Indusolutions draft on Hostinger is marked WP Care and PHP/HTML.
+
+## [2026-11-27] ingest | Haulage WP Care invoice starts December 2026
+
+- Source: [start-month note](../sources/2026/11/2026-11-27-note-madz-haulage-invoice-start.md).
+- Changed: [Tasks](tasks.md) - the invoice row holds the terms: Haulage 2 sites x 6 months from December 2026, USD 240; Zag Plumbing USD 240. [WP Care website management](projects/wp-care-website-management.md) billing line updated.
+- Flagged: none.
+
+## [2026-11-27] ingest | Zag Plumbing move estimate drafted; GST status likely not registered
+
+- Source: [GST and estimate note](../sources/2026/11/2026-11-27-note-madz-gst-zag-estimate.md).
+- Changed: [Tasks](tasks.md) - the invoice row notes Madz is most likely not GST-registered; the Zag Plumbing row holds the 9 h, USD 180 estimate, not sent. [Zag Plumbing](external/zag-plumbing.md) links the estimate.
+- Flagged: the Haulage invoice billing period is not stated. The Haskour CPA task row is left to the live session `2026-11-27-haskour-cpa-repo-setup`.
+
+## [2026-11-27] ingest | November reports wait on Bitwarden access
+
+- Source: [Bitwarden note](../sources/2026/11/2026-11-27-note-madz-bitwarden-reports.md).
+- Changed: [Tasks](tasks.md) - the November reports row is `waiting` on Camille confirming Madz in Bitwarden; no access on 2026-11-27 means reports start with December.
+
+## [2026-11-27] ingest | Camille's 2026-11-24 emails and 2026-11-25/26 WhatsApp: Haskour CPA, WP Care schedule and billing, deadlines
+
+- Sources: [next steps email](../sources/2026/11/2026-11-24-email-camille-websites-next-steps.md), [Haulage email](../sources/2026/11/2026-11-24-email-camille-gascoyne-exmouth.md), [Haskour CPA overview](../sources/2026/11/2026-11-25-haskour-cpa-project-overview.md), [WhatsApp 2026-11-25](../sources/2026/11/2026-11-25-whatsapp-camille-madz-haskour-deadlines.md), [WhatsApp 2026-11-26](../sources/2026/11/2026-11-26-whatsapp-camille-invoices.md). Camille's phone number redacted from both emails.
+- New: [Haskour CPA website](projects/haskour-cpa-website.md), [Haskour CPA](external/haskour-cpa.md), [Zag Plumbing](external/zag-plumbing.md).
+- Completed and removed from [Tasks](tasks.md): Camille's site list, logins and tracking sheet (owner Camille Malloch), sent 2026-11-24 as a Bitwarden invite and the master sheet.
+- Changed: [Tasks](tasks.md), [WP Care](projects/wp-care-website-management.md), [Indusolutions website](projects/indusolutions-website.md), [Micheline Paquette website](projects/micheline-paquette-website.md), [Khoury Construction website](projects/khoury-construction-website.md), [Auto Industrial Paints website](projects/auto-industrial-paints-website.md), [Indusolutions](external/indusolutions.md), [Gascoyne Haulage](external/gascoyne-haulage.md), [Madz](people/madz.md), [Camille Malloch](people/camille-malloch.md), hubs, `STATE.md`.
+- Corrections: reports go out on the last day of the month (2026-11-30), not 2026-12-01; the group is Malbros, not "Melbras"; Indusolutions moves from end Nov / early Dec to end Dec 2026; Micheline gets a hard 2027-01-15.
+- Flagged: overcommitment - Madz holds three items due 2026-11-30 (Haskour quotes, invoices, November reports). Madz's own "EOD tomorrow" for the Haskour estimates (2026-11-26) has passed. Open: whether to start reports in Nov or Dec, Madz's GST status, the start of Anita Nowak, Mourad Center and Sophie Duchesne Coaching, and whether "other projects" means Khoury and AIP.
+
+## [2026-11-27] ingest | 2026-11-09 catch-up with Camille: WP Care, Companion move, Ocean Blue sent
+
+- Sources: [meeting transcript](../sources/2026/11/2026-11-09-meeting-camille-madz-transcript.md) (Camille's audio only), [meeting note](../sources/2026/11/2026-11-09-note-camille-catch-up-meeting.md), [Madz's answers](../sources/2026/11/2026-11-27-note-madz-catch-up-answers.md), [Ocean Blue sent date](../sources/2026/11/2026-11-27-note-ocean-blue-sent-date.md); site spellings from the repo [minutes](../../repos/indusolutions/docs/sources/meeting/2026-11-09-camille-meeting-minutes.md).
+- New: [WP Care website management](projects/wp-care-website-management.md), [Companion domain and email move](projects/companion-domain-email-move.md), [Green Horizon Studio](external/green-horizon-studio.md), [Gascoyne Haulage](external/gascoyne-haulage.md), [IMR Group](external/imr-group.md), [Anita Nowak](external/anita-nowak.md), [Mourad Center](external/mourad-center.md), [Sophie Duchesne Coaching](external/sophie-duchesne-coaching.md), [Kat](people/kat.md).
+- Completed and removed from [Tasks](tasks.md): the 2026-11-02 coffee (owner Madz), moved to the 2026-11-09 catch-up; the Ocean Blue price (owner Madz, due 2026-11-04), sent 2026-11-02 at USD 2,420.
+- Changed: [Tasks](tasks.md) (7 rows added), [Madz](people/madz.md), [Camille Malloch](people/camille-malloch.md), [Indusolutions](external/indusolutions.md), [Indusolutions website](projects/indusolutions-website.md), [Micheline Paquette website](projects/micheline-paquette-website.md), [Ocean Blue](projects/ocean-blue-residence-benchmark-quote.md), [Quote sheets sent](decisions/2026-11-01-quote-sheets-sent.md), [AIP quote pricing](decisions/2026-10-28-aip-quote-pricing.md), hubs.
+- Resolved: maintenance is USD 20 per site per month (Camille, 2026-11-09), replacing USD 40.
+- Flagged: Camille's two task rows are overdue and the 2026-12-01 report date is unconfirmed, pending her 2026-11-25 messages and email. Group name "Melbras" is as heard, unconfirmed.
+
 ## [2026-11-01] session | ocean-blue-whatsapp
 
 - Ran 2026-11-01 with Claude Code, with Madz at the keyboard. Intent: ingest WhatsApp messages about the Ocean Blue Residence quote and Monday call.
