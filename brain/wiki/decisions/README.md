@@ -2,6 +2,8 @@
 
 One page per dated decision, accepted or still open. Filenames carry the date.
 
+- [2026-11-27 Haskour CPA quotes sent](2026-11-27-haskour-cpa-quotes-sent.md) - accepted: website USD 1,540, automation USD 940; extras login USD 300, Azure USD 280
+- [2026-11-27 Haskour CPA open choices](2026-11-27-haskour-cpa-open-choices.md) - open: 8 items asked of Camille in the build approach
 - [2026-11-01 Quote sheets sent](2026-11-01-quote-sheets-sent.md) - accepted: Camille holds the sheet prices, USD 1,660 to 2,300, not the 2026-10-28 drafts
 - [2026-10-28 AIP HTML mockups are reference only](2026-10-28-aip-html-mockups-reference-only.md) - accepted: final Auto Industrial Paints design will be Figma, not yet provided
 - [2026-10-28 AIP quote v2](2026-10-28-aip-quote-v2.md) - superseded: USD 1,815 draft, sheet sent at USD 1,660

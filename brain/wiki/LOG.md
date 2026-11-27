@@ -12,6 +12,20 @@ This file is **never loaded at session start**. It exists so `STATE.md` can stay
 
 The operation is one of `ingest`, `ask`, `brief`, `lint`, `decision`, `session`. The body is one to four bullets: what came in or was done, which pages changed (as real links), what was flagged, what is still open. The last five entries are `grep "^## \[" brain/wiki/LOG.md | head -5`.
 
+## [2026-11-27] session | haskour-cpa-repo-setup
+
+- Ran 2026-11-27 04:07 to 2026-11-27 23:06 with Claude Code, with Madz at the keyboard. Intent: set up `repos/haskour-cpa` from ai-driven-template v5 and assess the Haskour CPA project overview.
+- Where it ended: repo set up; quotes and build approach v2 sent to Camille 2026-11-27 and recorded here; lint clean.
+- Next: Camille's 8 answers ([open choices](decisions/2026-11-27-haskour-cpa-open-choices.md)); then the form and automation at kickoff 2026-12-07.
+- Not committed from here: `repos/haskour-cpa/` (its own repo, no commit or remote yet) and `docs-local/`.
+
+## [2026-11-27] ingest | Haskour CPA quote amounts and build approach recorded; repo indexed
+
+- Source: [detail note](../sources/2026/11/2026-11-27-note-madz-haskour-quotes-detail.md). Closes the gap flagged in the earlier "Haskour CPA quotes sent" entry.
+- New: [quotes sent](decisions/2026-11-27-haskour-cpa-quotes-sent.md) (accepted: website USD 1,540, automation USD 940 fixed, extras login USD 300 and Azure USD 280), [open choices](decisions/2026-11-27-haskour-cpa-open-choices.md) (open: 8 items asked of Camille), system page [haskour-cpa](systems/haskour-cpa.md).
+- Changed: [Haskour CPA website](projects/haskour-cpa-website.md), [Projects](projects/README.md), [Systems](systems/README.md), [Decisions](decisions/README.md), [Madz](people/madz.md); [Tasks](tasks.md) row for Camille's answers, due 2026-12-07 (kickoff, inferred).
+- Flagged: `repos/haskour-cpa` has no remote and no commit yet.
+
 ## [2026-11-27] session | camille-catch-up
 
 - Ran 2026-11-09 13:02 to 2026-11-27 17:32 with Claude Code, with Madz at the keyboard. Intent: record the 2026-11-09 catch-up with Camille, then the 2026-11-24 to 2026-11-26 emails, WhatsApp, Haskour CPA overview and master sheet.
